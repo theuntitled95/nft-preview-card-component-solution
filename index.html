@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-blue-bg text-soft-blue grid place-items-center min-h-screen">
+    <div class="bg-blue-card p-6 rounded-xl shadow-2xl font-light max-w-xs">
+      <div class="rounded-xl overflow-hidden mb-6">
+        <a href="" class="w-full block relative group">
+          <div
+            class="bg-cyan bg-opacity-60 transition-all duration-150 opacity-0 group-hover:opacity-100 grid place-items-center absolute inset-0"
+          >
+            <img src="images/icon-view.svg" alt="" class="" />
+          </div>
+          <img src="images/image-equilibrium.jpg" alt="" />
+        </a>
+      </div>
+      <h2 class="font-bold text-xl mb-3">
+        <a href="" class="text-white hover:text-cyan">Equilibrium #3429</a>
+      </h2>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <div
+        class="flex justify-between items-center border-b border-blue-line py-4"
+      >
+        <div class="text-cyan flex items-center gap-1 font-bold">
+          <div><img src="images/icon-ethereum.svg" alt="" /></div>
+          <span>0.041 ETH</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <div><img src="images/icon-clock.svg" alt="" /></div>
+          <span>3 days left</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-4 mt-4">
+        <div>
+          <img
+            src="images/image-avatar.png"
+            alt=""
+            class="w-8 border border-white rounded-full"
+          />
+        </div>
+        <div>
+          Creation of
+          <a href="" class="text-white hover:text-cyan">Jules Wyvern</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution absolute bottom-12 left-1/2 -translate-x-1/2">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/theuntitled95">Talha Hussain</a>.
+    </div>
+  </body>
+</html>
